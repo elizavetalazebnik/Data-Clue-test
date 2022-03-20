@@ -2,13 +2,14 @@
   "name": "data-clue",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://teddy4445.github.io/data_clue_test_deploy_delete_later/",
+  "homepage": "https://elizavetalazebnik.github.io/Data-Clue-test/",
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve --mode development",
     "build": "webpack --mode production",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+    "build2": "webpack serve --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +18,6 @@
     "-": "^0.0.1",
     "@babel/runtime": "^7.17.2",
     "dotenv": "^16.0.0",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.2",
@@ -32,6 +32,7 @@
     "compression-webpack-plugin": "^9.0.0",
     "css-loader": "^6.6.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
